@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+  <div class="card" id="card">
+    <div class="contents">
+      <h1 class="title">Stay updated!</h1>
+      
+      <p class="details">Join 60,000+ product managers receiving monthly updates on:</p>
+      
+      
+      <ul class="list">
+        <li class="point">
+          <img src="./assets/images/icon-success.svg" alt="photo" class="check">
+          <p class="point-text">Product discovery and building what matters</p>
+        </li>
+        <li class="point">
+          <img src="./assets/images/icon-success.svg" alt="photo" class="check">
+          <p class="point-text">Measuring to ensure updates are a success</p>
+        </li>
+        <li class="point">
+          <img src="./assets/images/icon-success.svg" alt="photo" class="check">
+          <p class="point-text">And much more!</p>
+        </li>
+      </ul>
+
+      <div class="form">
+        <div class="typing">
+        <div class="guide">
+          <h2 class="input-title">Email address</h2>
+          <h2 class="input-title alert vanish">Valid email required</h2>
+        </div>
+          
+
+          <input label="email" class="email" id="email" placeholder="email@company.com"/>
+        </div>
+        <button onclick="subscribe()" class="subscribe">Subscribe to monthly newsletter</button>
+      </div>
+
+    </div>
+    
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" class="picture">
+      <img src="./assets/images/illustration-sign-up-mobile.svg" alt="" class="mobile-picture">
+    
+  </div>
+
+  <div class="success-card vanish">
+    <img src="./assets/images/icon-success.svg" alt="photo" class="success-tick">
+    <h1 class="success-title">Thanks for subscribing!</h1>
+    <p class="success-text">
+      A confirmation email has been sent to ash@loremcompany.com. 
+  Please open it and click the button inside to confirm your subscription.
+    </p>
+    <button onclick="home()"  class="subscribe">Dismiss message</button>
+  </div>
+ 
+ <script src="./index.js"></script>
+
+  
+
+  
+
+  
+  
+  
+
+ 
+  
+
+  
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+
+  
+
+  
+
+  
+
+  <!-- Success message end -->
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Fida Ullah</a>.
+  </div> -->
+</body>
+</html>
