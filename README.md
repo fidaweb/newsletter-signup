@@ -1,3 +1,4 @@
+Use desktop view for better user experience.
 # You will find the deployed site at https://fidaweb.github.io/newsletter-signup/
 # Frontend Mentor - Newsletter sign-up form with success message
 
